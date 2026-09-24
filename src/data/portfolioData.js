@@ -131,47 +131,45 @@ export const portfolioData = {
     },
     {
       id: "taskflow",
-      title: "TaskFlow — Smart AI-Powered Kanban Workspace",
-      tagline: "Intelligent sprint management with Google Generative AI subtask decomposition and drag-and-drop workflow",
+      title: "TaskFlow — Smart Task Management",
+      tagline: "AI-enhanced Kanban productivity workspace with automated task decomposition",
       category: "Full-Stack",
       featured: false,
-      badge: "Gemini AI & TypeScript",
-      description: "An engineering productivity workspace integrating Kanban boards with Google's Gemini 1.5 Flash model. Automatically decomposes complex engineering tickets into 3–5 actionable subtasks with time estimates, priorities, and celebration triggers.",
-      tech: ["React 19", "TypeScript", "Google Generative AI (Gemini)", "Tailwind CSS v4", "Vite", "Canvas Confetti", "Lucide React"],
+      badge: "Productivity",
+      description: "A sleek, Trello-inspired project and task management workspace built for developers and teams. Features smooth drag-and-drop board mechanics and Google Generative AI integration to automatically decompose complex objectives into actionable sprint subtasks.",
+      tech: ["React.js", "Tailwind CSS", "Shadcn/UI", "Lucide-react", "Google Generative AI", "Vercel"],
       links: {
         github: "https://github.com/Avartii/taskify-colab",
         live: null
       },
       highlights: [
-        "Deep integration with Google Generative AI (@google/generative-ai) for automated, structured engineering subtask estimation",
-        "Fluid drag-and-drop column and card organization built with modern TypeScript and responsive Tailwind CSS v4",
-        "Optimistic client-side state updates and secure client-side API key management via browser local storage",
-        "Interactive task completion milestones with canvas confetti feedback and micro-interactions"
+        "Fluid drag-and-drop column and card interactions with accessible keyboard controls",
+        "Generative AI subtask assistant breaking down high-level project goals into step-by-step checklists",
+        "Polished developer-grade dark aesthetic using Shadcn/UI primitives and custom Tailwind tokens"
       ],
-      architecture: "Client-side TypeScript single-page application built on React 19 and Vite. Utilizes structured Gemini prompt schemas with fallback parsers to transform natural language objectives into typed JSON subtasks, rendered into a responsive Tailwind CSS interface.",
-      metrics: "Instant AI subtask generation in under 1.2s with automated priority weighting and time estimation."
+      architecture: "State-driven React architecture with optimistic UI updates and structured Gemini prompt templates for rapid subtask breakdown.",
+      metrics: "Instant task breakdown generation in under 1.2s powered by Google Generative AI."
     },
     {
       id: "triviaedge",
-      title: "TriviaEdge — Real-Time Multiplayer Quiz Arena",
-      tagline: "Low-latency multiplayer trivia platform with WebSocket synchronization and Redux global state",
+      title: "TriviaEdge — Real-Time Multiplayer Quiz",
+      tagline: "Dynamic multiplayer trivia platform with WebSocket real-time synchronization",
       category: "Full-Stack",
       featured: false,
-      badge: "WebSockets & Redux",
-      description: "A full-stack, real-time multiplayer trivia platform engineered for concurrent multiplayer competition. Features low-latency room matching, synchronized question timers with server-side validation, live leaderboards, and persistent user scoring.",
-      tech: ["React 19", "Redux", "React Router", "Socket.io", "Node.js", "Express.js", "MongoDB (Mongoose)", "Axios", "CSS3"],
+      badge: "Real-Time WebSockets",
+      description: "An engaging real-time multiplayer quiz arena where players compete simultaneously across trivia categories. Features sub-50ms synchronized question countdown timers, dynamic multiplier scoring, and real-time live leaderboards.",
+      tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Socket.io", "Axios", "CSS3"],
       links: {
         github: "https://github.com/Avartii/TriviaEdge",
         live: null
       },
       highlights: [
-        "Bi-directional Socket.io client-server event streams enabling sub-50ms room synchronization and live answer broadcasts",
-        "Centralized game and room state management powered by Redux and React-Redux for predictable client-side state transitions",
-        "Robust Mongoose schemas with indexed question banks, category filtering, and user session audit logs",
-        "Dynamic client countdown timers synchronized with server timestamps to prevent client-side timing manipulation"
+        "Bi-directional WebSocket event channels for instant room creation and live game synchronization",
+        "Dynamic question timers with client-server timestamp validation to deter timing exploits",
+        "Live dynamic leaderboard updating positions after every question round"
       ],
-      architecture: "Decoupled event-driven architecture: Node/Express backend coordinating in-memory WebSocket room state machines with Socket.io broadcasts, while MongoDB via Mongoose handles persistent schemas for questions and match records. The frontend leverages React 19 and Redux for deterministic game state updates.",
-      metrics: "Sub-50ms synchronized question broadcast latency across multiple active player rooms."
+      architecture: "Node/Express backend maintaining in-memory game room state machines with Socket.io broadcasts, while MongoDB handles question repositories and historical statistics.",
+      metrics: "Maintains concurrent multiplayer lobby synchronization with low-latency broadcasts."
     },
     {
       id: "uitmap",
