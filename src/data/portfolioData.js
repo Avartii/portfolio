@@ -228,18 +228,18 @@ export const portfolioData = {
     }
   ],
 
-  // Hierarchical order starting from 2025 down to 2024 and 2023
+  // Hierarchical order starting from 2026 down to 2022
   communityLeadership: [
     {
-      id: "gdsc",
-      role: "Co-Lead",
-      organization: "Google Developer Student Club (GDSC) — UIT",
-      period: "2025 — Present",
-      year: 2025,
-      location: "Prayagraj, India",
-      summary: "Leading the student developer chapter at United Institute of Technology, orchestrating hackathons, study jams, and peer-to-peer code reviews.",
-      impact: "Mentored hundreds of campus developers in web development, Git best practices, and collaborative open-source workflows.",
-      icon: "Terminal"
+      id: "indic-wikimedia",
+      role: "Active Member",
+      organization: "Indic MediaWiki Developers User Group",
+      period: "2026 — Present",
+      year: 2026,
+      location: "Remote",
+      summary: "Contributing to community governance and technical initiatives within the Indic MediaWiki ecosystem.",
+      impact: "Supported development of open-source tooling and participated in technical review discussions.",
+      icon: "BookOpen"
     },
     {
       id: "road-to-wiki",
@@ -278,7 +278,7 @@ export const portfolioData = {
       id: "gcp-facilitator",
       role: "Google Cloud Arcade Facilitator",
       organization: "Google Cloud India",
-      period: "Aug 2024 — Present",
+      period: "Aug 2024 — Oct 2025",
       year: 2024,
       location: "Prayagraj, India",
       summary: "Selected as 1 of only 188 nationwide facilitators across India to guide developers through hands-on cloud labs and architectures.",
@@ -286,15 +286,15 @@ export const portfolioData = {
       icon: "Cloud"
     },
     {
-      id: "indic-wikimedia",
-      role: "Active Member",
-      organization: "Indic MediaWiki Developers User Group",
-      period: "2024 — Present",
-      year: 2024,
-      location: "Remote",
-      summary: "Contributing to community governance and technical initiatives within the Indic MediaWiki ecosystem.",
-      impact: "Supported development of open-source tooling and participated in technical review discussions.",
-      icon: "BookOpen"
+      id: "gdg",
+      role: "Member",
+      organization: "Google Developer Group (GDG) Prayagraj",
+      period: "2023 — 2025",
+      year: 2023,
+      location: "Prayagraj, India",
+      summary: "Active member of the GDG Prayagraj chapter, supporting community events and developer meetups.",
+      impact: "Assisted in community organizing, technical sessions, and developer outreach.",
+      icon: "Sparkles"
     },
     {
       id: "tfug",
@@ -308,17 +308,6 @@ export const portfolioData = {
       icon: "Cpu"
     },
     {
-      id: "gdg",
-      role: "Member",
-      organization: "Google Developer Group (GDG) Prayagraj",
-      period: "2023 — Present",
-      year: 2023,
-      location: "Prayagraj, India",
-      summary: "Active member of the GDG Prayagraj chapter, supporting community events and developer meetups.",
-      impact: "Assisted in community organizing, technical sessions, and developer outreach.",
-      icon: "Sparkles"
-    },
-    {
       id: "nss",
       role: "Community Member",
       organization: "NSS (National Service Scheme)",
@@ -328,6 +317,17 @@ export const portfolioData = {
       summary: "Led and participated in social community service initiatives, demonstrating collaborative leadership and social responsibility.",
       impact: "Organized local community programs and volunteer drives.",
       icon: "Heart"
+    },
+    {
+      id: "gdsc",
+      role: "Co-Lead",
+      organization: "Google Developer Student Club (GDSC) — UIT",
+      period: "2022 — 2023",
+      year: 2022,
+      location: "Prayagraj, India",
+      summary: "Leading the student developer chapter at United Institute of Technology, orchestrating hackathons, study jams, and peer-to-peer code reviews.",
+      impact: "Mentored hundreds of campus developers in web development, Git best practices, and collaborative open-source workflows.",
+      icon: "Terminal"
     }
   ],
 
@@ -354,24 +354,24 @@ export const portfolioData = {
       icon: "Sparkles"
     },
     {
-      id: "gcp-188",
-      title: "Selected as 1 of 188 Nationwide Google Cloud Arcade Facilitators",
-      organization: "Google Cloud",
-      date: "Aug 2024",
-      year: 2024,
-      badge: "1 of 188 in India",
-      description: "Earned a competitive appointment as one of 188 facilitators nationwide to mentor university students and professionals in Google Cloud technologies.",
-      icon: "CloudLightning"
-    },
-    {
       id: "wts-2024",
       title: "Invitation to Wikimedia Technology Summit (WTS 2024)",
       organization: "Wikimedia Foundation / IIIT-Hyderabad",
-      date: "Jul 2024",
+      date: "Oct 2024",
       year: 2024,
       badge: "WTS Summit",
       description: "Invited to participate in the prestigious Wikimedia Technology Summit at IIIT-Hyderabad for demonstrable expertise in open-source Wikimedia tooling and technical contributions.",
       icon: "Compass"
+    },
+    {
+      id: "gcp-188",
+      title: "Selected as 1 of 188 Nationwide Google Cloud Arcade Facilitators",
+      organization: "Google Cloud",
+      date: "Aug 2024 — Oct 2025",
+      year: 2024,
+      badge: "1 of 188 in India",
+      description: "Earned a competitive appointment as one of 188 facilitators nationwide to mentor university students and professionals in Google Cloud technologies.",
+      icon: "CloudLightning"
     },
     {
       id: "google-notes",

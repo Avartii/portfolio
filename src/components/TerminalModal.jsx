@@ -126,15 +126,15 @@ Type 'open <project_id>' to launch (e.g., 'open resolvex')`;
 
       case 'community':
         response = `🌐 Community Leadership & DevRel (Chronological):
-• GDSC UIT — Co-Lead (2025 — Present)
+• Indic MediaWiki Developers User Group — Active Member (2026 — Present)
 • Road to Wiki Cohort 1 — Mentor (Feb 2025, Recognized at Meta Gurugram HQ)
 • FlutterFlow Developer Group Prayagraj — Co-organizer & Tech Lead (Nov 2024 — Present)
 • Women in Tech Prayagraj — Organizer (Nov 2024 — Present)
-• Google Cloud Arcade — Nationwide Facilitator (Aug 2024 — Present)
-• Indic MediaWiki Developers User Group — Active Member (2024 — Present)
+• Google Cloud Arcade — Nationwide Facilitator (Aug 2024 — Oct 2025)
+• GDG Prayagraj — Member (2023 — 2025)
 • TFUG Prayagraj — Technical Lead (Dec 2023 — Present)
-• GDG Prayagraj — Member (2023 — Present)
-• NSS — Community Member (May 2023 — Oct 2023)`;
+• NSS — Community Member (May 2023 — Oct 2023)
+• GDSC UIT — Co-Lead (2022 — 2023)`;
         break;
 
       case 'awards':
@@ -142,8 +142,8 @@ Type 'open <project_id>' to launch (e.g., 'open resolvex')`;
         response = `🏆 Key Honors & Recognitions (Chronological):
 • Felicitated at Meta Gurugram HQ for Road to Wiki Cohort 1 Mentorship (Feb 2025)
 • Selected Participant — Developer Skill Development Program 2025 (IIITH-OKI)
-• Selected Google Cloud Arcade Facilitator (1 of 188 in India, Aug 2024)
-• Invited to Wikimedia Technology Summit 2024 at IIIT-Hyderabad (Jul 2024)
+• Selected Google Cloud Arcade Facilitator (1 of 188 in India, Aug 2024 — Oct 2025)
+• Invited to Wikimedia Technology Summit 2024 at IIIT-Hyderabad (Oct 2024)
 • Top 5 Nationwide in Google Notes Championship — Honored at Google Gurugram Office (Apr 2024)
 • 2x Hacktoberfest Contributor (MLH, 2024 & 2023)`;
         break;
