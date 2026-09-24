@@ -232,12 +232,12 @@ export const portfolioData = {
   communityLeadership: [
     {
       id: "indic-wikimedia",
-      role: "Active Member",
+      role: "Contributor",
       organization: "Indic MediaWiki Developers User Group",
-      period: "2026 — Present",
+      period: "March 2026",
       year: 2026,
       location: "Remote",
-      summary: "Contributing to community governance and technical initiatives within the Indic MediaWiki ecosystem.",
+      summary: "Contributing to technical initiatives and open-source tooling within the Indic MediaWiki ecosystem.",
       impact: "Supported development of open-source tooling and participated in technical review discussions.",
       icon: "BookOpen"
     },
@@ -286,17 +286,6 @@ export const portfolioData = {
       icon: "Cloud"
     },
     {
-      id: "gdg",
-      role: "Member",
-      organization: "Google Developer Group (GDG) Prayagraj",
-      period: "2023 — 2025",
-      year: 2023,
-      location: "Prayagraj, India",
-      summary: "Active member of the GDG Prayagraj chapter, supporting community events and developer meetups.",
-      impact: "Assisted in community organizing, technical sessions, and developer outreach.",
-      icon: "Sparkles"
-    },
-    {
       id: "tfug",
       role: "Technical Lead",
       organization: "TensorFlow User Group (TFUG) Prayagraj",
@@ -306,6 +295,17 @@ export const portfolioData = {
       summary: "Directing the technical agenda for machine learning bootcamps, community code-alongs, and hands-on AI workshops.",
       impact: "Bridging the gap between theoretical machine learning concepts and practical web integration for community members.",
       icon: "Cpu"
+    },
+    {
+      id: "gdg",
+      role: "Member",
+      organization: "Google Developer Group (GDG) Prayagraj",
+      period: "2023 — 2025",
+      year: 2023,
+      location: "Prayagraj, India",
+      summary: "Active member of the GDG Prayagraj chapter, supporting community events and developer meetups.",
+      impact: "Assisted in community organizing, technical sessions, and developer outreach.",
+      icon: "Sparkles"
     },
     {
       id: "nss",

@@ -126,13 +126,13 @@ Type 'open <project_id>' to launch (e.g., 'open resolvex')`;
 
       case 'community':
         response = `🌐 Community Leadership & DevRel (Chronological):
-• Indic MediaWiki Developers User Group — Active Member (2026 — Present)
+• Indic MediaWiki Developers User Group — Contributor (March 2026)
 • Road to Wiki Cohort 1 — Mentor (Feb 2025, Recognized at Meta Gurugram HQ)
 • FlutterFlow Developer Group Prayagraj — Co-organizer & Tech Lead (Nov 2024 — Present)
 • Women in Tech Prayagraj — Organizer (Nov 2024 — Present)
 • Google Cloud Arcade — Nationwide Facilitator (Aug 2024 — Oct 2025)
-• GDG Prayagraj — Member (2023 — 2025)
 • TFUG Prayagraj — Technical Lead (Dec 2023 — Present)
+• GDG Prayagraj — Member (2023 — 2025)
 • NSS — Community Member (May 2023 — Oct 2023)
 • GDSC UIT — Co-Lead (2022 — 2023)`;
         break;
